@@ -1,4 +1,6 @@
 Weeeei
 ======
 
-Yo-clone for college students
+ただのYoクローンです
+
+タップした友達に「ｳｪｰｲwwwwww」と送るだけのアプリです
