@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wet_asphalt"
+    tools:context="com.kskkbys.maido.app.SignUpActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_name"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:textSize="35sp"
+        android:hint="ユーザー名"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:gravity="center"
+        android:background="@color/alizarin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:textSize="35sp"
+        android:hint="パスワード"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:gravity="center"
+        android:background="@color/orange"
+        android:ems="10"
+        android:id="@+id/signup_pass"
+        android:layout_below="@+id/signup_name"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup_pass"
+        android:layout_centerHorizontal="true"
+        android:background="@color/turquoise"
+        android:id="@+id/frameLayout">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:textSize="35sp"
+            android:textColor="@android:color/white"
+            android:background="@color/turquoise"
+            android:text="サインアップ"
+            android:id="@+id/signup_button"
+             />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup_progress_bar"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+             />
+
+    </FrameLayout>
+</RelativeLayout>
